@@ -1,0 +1,90 @@
+.form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    color: white;
+}
+.form__inputbox{
+    margin: 1%;
+    display: flex;
+    flex-direction: column;
+    
+}
+.form .form__inputbox label{
+    margin-bottom: 5px;
+    text-transform: capitalize;
+    font-size: 20px;
+}
+.form .form__inputbox input{
+    height: 40px;
+    margin-bottom: 5px;
+    background-color: white;
+    width: 30vw;
+    outline: none;
+    border: 1px solid gainsboro;
+    padding-left: 10px;
+    border-radius: 5px;
+}
+.form__inputbox span{
+   text-transform: capitalize;
+    width: 30vw;
+    color: red;
+}
+.form__select{
+    margin: 1%;
+    display: flex;
+    width: 30vw;
+    flex-direction: column;
+    color: black;
+}
+.form__select label{
+    margin-bottom: 5px;
+    text-transform: capitalize;
+    font-size: 20px;
+    color: white;
+}
+.form__checkbox{
+    margin: 1%;
+    display: flex;
+    flex-direction: column;
+    width: 30vw;
+    text-transform: capitalize;
+}
+.form__checkbox span{
+    text-transform: capitalize;
+    width: 30vw;
+    color: red;
+}
+.form__optionbox{
+    display: flex;
+    width: 30vw;
+    flex-direction: column;
+   
+}
+.form__optionbox label{
+    padding: 10px;
+}
+.form__optionbox span {
+   text-transform: capitalize;
+    width: 30vw;
+    color: red;
+}
+.form button{
+    width: 30vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    outline: none;
+    padding: 10px;
+    font-size: 15px;
+    background-color:#f78000 ;
+    color: white;
+    text-transform: capitalize;
+    border-radius: 1px;
+    margin-top: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
